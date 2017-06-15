@@ -11,5 +11,9 @@ composer require --dev onepica/mage2-dev-no-image
 ```
 
 ## Details
+On initiate an image the module will create small placeholder (20x20 px) by the same image path.
 
+## Warning
 Please be aware this module will overwrite the class `Magento\Framework\Image`.
+
+
